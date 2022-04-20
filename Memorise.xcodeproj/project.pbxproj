@@ -16,6 +16,10 @@
 		3126289F280E64FF00812BDF /* MemoriseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3126289E280E64FF00812BDF /* MemoriseTests.swift */; };
 		312628A9280E64FF00812BDF /* MemoriseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312628A8280E64FF00812BDF /* MemoriseUITests.swift */; };
 		312628AB280E64FF00812BDF /* MemoriseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312628AA280E64FF00812BDF /* MemoriseUITestsLaunchTests.swift */; };
+		312628B8280E6B1500812BDF /* MemoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312628B7280E6B1500812BDF /* MemoryItem.swift */; };
+		312628BA280E6C6400812BDF /* MemoryItems.json in Resources */ = {isa = PBXBuildFile; fileRef = 312628B9280E6C6400812BDF /* MemoryItems.json */; };
+		312628BC280E890600812BDF /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312628BB280E890600812BDF /* MemoryViewController.swift */; };
+		312628BE280FA68800812BDF /* MemoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312628BD280FA68800812BDF /* MemoryDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		312628A4280E64FF00812BDF /* MemoriseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoriseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		312628A8280E64FF00812BDF /* MemoriseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriseUITests.swift; sourceTree = "<group>"; };
 		312628AA280E64FF00812BDF /* MemoriseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		312628B7280E6B1500812BDF /* MemoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryItem.swift; sourceTree = "<group>"; };
+		312628B9280E6C6400812BDF /* MemoryItems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MemoryItems.json; sourceTree = "<group>"; };
+		312628BB280E890600812BDF /* MemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
+		312628BD280FA68800812BDF /* MemoryDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				31262887280E64FD00812BDF /* AppDelegate.swift */,
 				31262889280E64FD00812BDF /* SceneDelegate.swift */,
 				3126288B280E64FD00812BDF /* ViewController.swift */,
+				312628BB280E890600812BDF /* MemoryViewController.swift */,
+				312628BD280FA68800812BDF /* MemoryDataSource.swift */,
+				312628B7280E6B1500812BDF /* MemoryItem.swift */,
+				312628B9280E6C6400812BDF /* MemoryItems.json */,
 				3126288D280E64FD00812BDF /* Main.storyboard */,
 				31262890280E64FE00812BDF /* Assets.xcassets */,
 				31262892280E64FE00812BDF /* LaunchScreen.storyboard */,
@@ -234,6 +246,7 @@
 				31262894280E64FE00812BDF /* LaunchScreen.storyboard in Resources */,
 				31262891280E64FE00812BDF /* Assets.xcassets in Resources */,
 				3126288F280E64FD00812BDF /* Main.storyboard in Resources */,
+				312628BA280E6C6400812BDF /* MemoryItems.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3126288C280E64FD00812BDF /* ViewController.swift in Sources */,
+				312628BE280FA68800812BDF /* MemoryDataSource.swift in Sources */,
 				31262888280E64FD00812BDF /* AppDelegate.swift in Sources */,
 				3126288A280E64FD00812BDF /* SceneDelegate.swift in Sources */,
+				312628B8280E6B1500812BDF /* MemoryItem.swift in Sources */,
+				312628BC280E890600812BDF /* MemoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
